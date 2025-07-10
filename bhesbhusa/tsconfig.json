@@ -41,7 +41,7 @@
     "components/**/*",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "src/pages/tryon.tsx"  ],
   "exclude": [
     "node_modules",
     "build",

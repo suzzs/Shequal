@@ -38,3 +38,20 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+  
+
+
+npm install @radix-ui/react-slot @radix-ui/react-dropdown-menu @radix-ui/react-dialog
+npm install class-variance-authority clsx tailwind-merge
+npm install @radix-ui/react-slot @radix-ui/react-dropdown-menu @radix-ui/react-dialog
+ npm install class-variance-authority clsx tailwind-merge
+npm install lucide-react
+ npx shadcn@latest init
+ npx shadcn@latest add button card input badge
+
+  npm install @radix-ui/react-slot @radix-ui/react-dropdown-menu @radix-ui/react-dialog class-variance-authority clsx lucide-react tailwind-merge tailwindcss-animate
+  npm install -D tailwindcss postcss autoprefixer
+  npx tailwindcss init -p
+
+
+  npm install @radix-ui/react-slot @radix-ui/react-dropdown-menu @radix-ui/react-dialog class-variance-authority clsx lucide-react tailwind-merge tailwindcss-animate tailwindcss postcss autoprefixer -D

@@ -15,7 +15,9 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "preserve",
-    "declaration": false,
+    "incremental": true,
+
+    // 🔧 Recommended fine-tuning (already good in yours)
     "noImplicitAny": false,
     "strictNullChecks": true,
     "strictFunctionTypes": true,
@@ -27,21 +29,25 @@
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": false,
     "noUncheckedIndexedAccess": false,
-    "incremental": true,
 
-    // ✅ ADD THESE:
+    // ✅ Module alias
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"]
     }
   },
+
+  // ✅ Include your relevant directories
   "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
     "src/**/*",
     "pages/**/*",
-    "components/**/*",
-    "**/*.ts",
-    "**/*.tsx"
-, "src/pages/tryon.tsx"  ],
+    "components/**/*"
+  ],
+
+  // ❌ No need to include specific files like `src/pages/tryon.tsx` separately
   "exclude": [
     "node_modules",
     "build",
